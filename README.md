@@ -10,6 +10,7 @@ Build an AI-powered energy forecasting system to predict campus electricity cons
 **Team Size**: 2-4 students
 
 **Your Mission**:
+
 1. Build a forecasting model to predict the next 7 days of energy consumption
 2. Create an interactive dashboard showing patterns and predictions
 3. Provide 3 specific, data-driven recommendations for 10% energy reduction
@@ -28,24 +29,25 @@ Build an AI-powered energy forecasting system to predict campus electricity cons
 
 #### campus_energy_data.csv
 
-| Column | Description | Type |
-|--------|-------------|------|
-| `datetime` | Hourly timestamp | DateTime |
-| `facility_id` | Building identifier (Building_A to Building_G) | String |
-| `consumption_mw` | Energy consumption | Float (Megawatts) |
-| `grid_stability_factor` | Grid stability indicator | Float (0.85-0.99) |
-| `renewable_mix_percent` | Renewable energy % | Float (5-25) |
-| `peak_demand_indicator` | Peak hours flag | Int (0/1) |
+| Column                  | Description                                    | Type              |
+| ----------------------- | ---------------------------------------------- | ----------------- |
+| `datetime`              | Hourly timestamp                               | DateTime          |
+| `facility_id`           | Building identifier (Building_A to Building_G) | String            |
+| `consumption_mw`        | Energy consumption                             | Float (Megawatts) |
+| `grid_stability_factor` | Grid stability indicator                       | Float (0.85-0.99) |
+| `renewable_mix_percent` | Renewable energy %                             | Float (5-25)      |
+| `peak_demand_indicator` | Peak hours flag                                | Int (0/1)         |
 
 #### building_metadata.csv
 
-| Column | Description |
-|--------|-------------|
-| `facility_id` | Building identifier |
-| `description` | Building purpose |
+| Column          | Description                      |
+| --------------- | -------------------------------- |
+| `facility_id`   | Building identifier              |
+| `description`   | Building purpose                 |
 | `building_type` | Academic / Support / Residential |
 
 **Dataset Stats**:
+
 - 7 buildings (3 Academic, 2 Support, 2 Residential)
 - ~18 months of hourly data
 - ~218,000 total measurements
@@ -54,21 +56,21 @@ Build an AI-powered energy forecasting system to predict campus electricity cons
 
 ## 🏆 Judging Criteria (100 points)
 
-| Category | Points | What's Evaluated |
-|----------|--------|------------------|
-| **Model Performance** | 30 | MAPE on hidden test data |
-| **Insights & Recommendations** | 30 | Quality, specificity, feasibility |
-| **Dashboard** | 20 | Usability, visualizations, interactivity |
-| **Presentation** | 20 | Clarity, understanding |
-| **Bonus** | +10 | Creativity, clean code |
+| Category                       | Points | What's Evaluated                         |
+| ------------------------------ | ------ | ---------------------------------------- |
+| **Model Performance**          | 30     | MAPE on hidden test data                 |
+| **Insights & Recommendations** | 30     | Quality, specificity, feasibility        |
+| **Dashboard**                  | 20     | Usability, visualizations, interactivity |
+| **Presentation**               | 20     | Clarity, understanding                   |
+| **Bonus**                      | +10    | Creativity, clean code                   |
 
 ### Model Scoring
 
-| MAPE | Points | | MAPE | Points |
-|------|--------|-|------|--------|
-| < 5% | 30 | | 15-20% | 15 |
-| 5-10% | 25 | | 20-30% | 10 |
-| 10-15% | 20 | | > 30% | 5 |
+| MAPE   | Points |     | MAPE   | Points |
+| ------ | ------ | --- | ------ | ------ |
+| < 5%   | 30     |     | 15-20% | 15     |
+| 5-10%  | 25     |     | 20-30% | 10     |
+| 10-15% | 20     |     | > 30%  | 5      |
 
 **Note**: Insights matter as much as accuracy! (30 pts each)
 
@@ -77,12 +79,15 @@ Build an AI-powered energy forecasting system to predict campus electricity cons
 ## 📋 Submission Requirements
 
 ### 1. Code
+
 Submit ONE of:
+
 - Jupyter notebook (.ipynb)
 - GitHub repository link
 - Deployed app URL
 
 ### 2. Predictions CSV (Required)
+
 ```csv
 datetime,facility_id,predicted_mw
 2022-11-01 00:00:00,Building_A,0.0234
@@ -91,6 +96,7 @@ datetime,facility_id,predicted_mw
 ```
 
 ### 3. Presentation (Optional)
+
 - Max 3 slides OR demo directly from dashboard
 
 ---
@@ -135,6 +141,7 @@ print(f"Date range: {df['datetime'].min()} to {df['datetime'].max()}")
 ### Focus on Insights Over Perfection
 
 Example scores:
+
 - 12% MAPE + amazing insights = **84 pts** ✅
 - 4% MAPE + generic insights = **68 pts** ❌
 
@@ -167,7 +174,7 @@ Example scores:
 ## ⚠️ Rules
 
 1. **AI tools allowed** - ChatGPT, Claude, Copilot encouraged
-2. **No pre-built solutions** - Don't copy I-BLEND notebooks
+2. **No pre-built solutions** - Don't copy random notebooks
 3. **Original work** - Code written during hackathon
 4. **Team only** - No outside help
 5. **No test data access** - Model tested on hidden data
@@ -200,4 +207,4 @@ A: 3.8+ (3.10 recommended)
 
 **Good luck! 🚀**
 
-*Organized by IEEE [Chapter] | Event: [Date] | Venue: [Location]*
+_Organized by IEEE [Chapter] | Event: [Date] | Venue: [Location]_
