@@ -207,4 +207,4 @@ A: 3.8+ (3.10 recommended)
 
 **Good luck! 🚀**
 
-_Organized by IEEE [Chapter] | Event: [Date] | Venue: [Location]_
+_Organized by IEEE Pakistan | Event: 16 December 2025 | Venue: NEIC_
