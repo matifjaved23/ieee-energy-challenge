@@ -1,0 +1,4 @@
+datetime,facility_id,predicted_mw
+2022-11-01 00:00:00,Building_A,0.0234
+2022-11-01 01:00:00,Building_A,0.0221
+2022-11-01 02:00:00,Building_A,0.0198

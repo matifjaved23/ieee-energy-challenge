@@ -1,0 +1,8 @@
+facility_id,description,building_type
+Building_A,Main academic building with classrooms and labs,Academic
+Building_B,Lecture halls and seminar rooms,Academic
+Building_C,Library and study spaces,Academic
+Building_D,Facilities management and maintenance,Support
+Building_E,Dining hall and cafeteria,Support
+Building_F,Male student residential building,Residential
+Building_G,Female student residential building,Residential

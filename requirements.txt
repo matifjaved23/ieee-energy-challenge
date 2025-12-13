@@ -1,0 +1,26 @@
+# Core Data Science
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Forecasting Models
+prophet>=1.1.0
+statsmodels>=0.14.0
+xgboost>=1.7.0
+lightgbm>=4.0.0
+
+# Dashboard & Visualization
+streamlit>=1.28.0
+plotly>=5.17.0
+dash>=2.14.0
+
+# Machine Learning (optional)
+scikit-learn>=1.3.0
+# tensorflow>=2.13.0  # Uncomment if using LSTM
+# torch>=2.0.0  # Uncomment if using PyTorch
+
+# Utilities
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.1.0
