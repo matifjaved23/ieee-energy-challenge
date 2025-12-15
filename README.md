@@ -154,7 +154,7 @@ Example scores:
 
 ❌ **Bad**: "Use less energy"
 
-✅ **Good**: "Building F shows 40% higher consumption 6-9 PM. Implement load-shifting for laundry after 10 PM. Expected savings: 720 kWh/month (₹5,760)."
+✅ **Good**: "Building F shows 40% higher consumption 6-9 PM. Implement load-shifting for laundry after 10 PM. Expected savings: 720 kWh/month (Rs. 5,760)."
 
 ### Explore Patterns
 
